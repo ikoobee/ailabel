@@ -1,0 +1,11 @@
+{
+  "name": "ailabel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AI content labeling tool: visible badge + implicit XMP metadata (IPTC DigitalSourceType) in one pass, 100% in-browser, zero-build static site.",
+  "scripts": {
+    "start": "npx --yes serve .",
+    "test": "node tools/test-metadata.mjs"
+  }
+}
